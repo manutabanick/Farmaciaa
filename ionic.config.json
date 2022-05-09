@@ -1,0 +1,7 @@
+{
+  "name": "tiendaEco",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
