@@ -4,7 +4,7 @@
   <ion-toolbar>
     <ion-title>carrito</ion-title>
   </ion-toolbar>
-<ion-list>
+<ion-list> <!--chekbox de productos-->
   <ion-item>
     <ion-label style="height: 100px; width: auto">PRODUCTOS</ion-label>
     <ion-select  multiple="true" cancelText="CANCEL" okText="OK">
@@ -18,23 +18,12 @@
 
 </ion-list>
 <ion-list>
-  <ion-item>
+  <ion-item><!--suma de productos-->
     <ion-label style="height: 100px; width: auto">CANTIDAD</ion-label>
     <ion-input type="number" [(ngModel)]="cantidad"></ion-input>
-    <!-- <ion-select  multiple="true" cancelText="CANCEL" okText="OK">
-      <ion-select-option value="1">1</ion-select-option>
-      <ion-select-option value="2">2</ion-select-option>
-      <ion-select-option value="3">3</ion-select-option>
-      <ion-select-option value="4">4</ion-select-option>
-      <ion-select-option value="5">5</ion-select-option>
-      <ion-select-option value="6">6</ion-select-option>
-      <ion-select-option value="7">7</ion-select-option>
-      <ion-select-option value="8">8</ion-select-option>
-      <ion-select-option value="9">9</ion-select-option>
-      <ion-select-option value="10">10</ion-select-option>
-    </ion-select> -->
+    
   </ion-item>
-  <ion-item>
+  <ion-item><!--chekbox de retiro-->
     <ion-label style="height: 100px; width: auto">RETIRO</ion-label>
     <ion-select  multiple="true" cancelText="CANCEL" okText="OK">
       <ion-select-option value="1">SUCURSAL</ion-select-option>
@@ -43,7 +32,7 @@
     </ion-select>
   </ion-item>
   <ion-button [routerLink]="['/inicio']">volver al inicio</ion-button>
-  <ion-button color="danger" slot="end" (click)="sumarcarrito()">FINALIZAR COMPRA</ion-button>
-  <ion-label style="height: 100px; width: auto">  Cantidad =    {{carrito}}</ion-label>
+  <ion-button color="danger" slot="end" (click)="sumarcarrito()">FINALIZAR COMPRA</ion-button><!-- boton de finalizacion de compra-->
+  <ion-label style="height: 100px; width: auto">  Cantidad =    {{carrito}}</ion-label><!-- muestra la cantidad de productos comprados-->
 
 </ion-list>

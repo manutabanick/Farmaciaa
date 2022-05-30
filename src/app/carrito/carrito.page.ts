@@ -14,7 +14,7 @@ export class CarritoPage implements OnInit {
 
 
 carrito=0
-cantidad=1
+cantidad=1 //la cantidad seiniciaria en 1
 
 
   
@@ -26,7 +26,7 @@ cantidad=1
   ngOnInit() {
  
   }
-sumarcarrito(){
+sumarcarrito(){ //arrglo de cantidad de productos
   this.carrito=this.carrito+this.cantidad
   
  

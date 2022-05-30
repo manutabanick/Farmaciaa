@@ -10,6 +10,8 @@ export class AppComponent {
     { title: 'inicio', url: '/inicio', icon: 'home' },
     
     { title: 'carrito', url: '/carrito', icon: 'cart' },
+
+    { title: 'productos', url: '/productos', icon: 'bag' },
     
   ];
  
