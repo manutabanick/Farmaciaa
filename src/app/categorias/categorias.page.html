@@ -5,120 +5,15 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-conten>
 
-  <ion-card>
-      <ion-item >
-    <ion-label routerLink="/dermocosmetica">Dermocosmetica</ion-label>
-    <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="">
-      <ion-select-option value="faciales" routerLink="/dermocosmetica/faciales">Faciales</ion-select-option>
-      <ion-select-option value="corporales" routerLink="/dermocosmetica/corporales">Corporales</ion-select-option>
-      <ion-select-option value="capilares" routerLink="/dermocosmetica/capilares">Capilares</ion-select-option>
-      <ion-select-option value="solares" routerLink="/dermocosmetica/solares">Solares</ion-select-option>
-    </ion-select>
-  </ion-item>
-</ion-card>
-
-
-  <ion-card>
-  <ion-item >
-    <ion-label routerLink="/electro_salud">Electo salud</ion-label>
-    <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="">
-      <ion-select-option value="tensiometros" routerLink="/electro_salud/tensiometros">Tensiometros</ion-select-option>
-      <ion-select-option value="termometros" routerLink="/electro_salud/termometros">Termometros</ion-select-option>
-      <ion-select-option value="balanzas" routerLink="/electro_salud/balanzas">Balanzas</ion-select-option>
-      <ion-select-option value="nebulizadores" routerLink="/electro_salud/nebulizadores">Nebulizadores</ion-select-option>
-      <ion-select-option value="oximetros" routerLink="/electro_salud/oximetros">Oximetros</ion-select-option>
-      <ion-select-option value="vaporizador" routerLink="/electro_salud/vaporizador">Vaporizador</ion-select-option>
-      <ion-select-option value="aerocamaras" routerLink="/electro_salud/aerocamaras">Aerocamaras</ion-select-option>
-      <ion-select-option value="almohadillas_mantas" routerLink="/dermocosmetica/almohadillas_mantas">Almohadillas y mantas</ion-select-option>
-    </ion-select>
-  </ion-item>
-</ion-card>
-
-<ion-card>
-  <ion-item >
-    <ion-label routerLink="/salud_bienestar">Salud y bienestar</ion-label>
-    <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="">
-      <ion-select-option value="antiflamatorios" routerLink="/salud_bienestar/antiflamatorio">Antiflamatorio</ion-select-option>
-      <ion-select-option value="antiacidos" routerLink="/salud_bienestar/antiacidos">Antiacidos</ion-select-option>
-      <ion-select-option value="antibioticos" routerLink="/salud_bienestar/nebulizadores">Antibioticos</ion-select-option>
-      <ion-select-option value="analgesicos" routerLink="/salud_bienestar/analgesicos">Analgesicos</ion-select-option>
-      <ion-select-option value="desinflamantes" routerLink="/salud_bienestar/desinflamantes">Desinflamantes</ion-select-option>
-    </ion-select>
-  </ion-item>
-</ion-card>
-
-<ion-card>
-  <ion-item >
-    <ion-label routerLink="/perfumes_fragancias">Perfumes y fragancias</ion-label>
-    <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="">
-      <ion-select-option value="colonias" routerLink="/perfumes_fragancias/colonias">Colonias</ion-select-option>
-      <ion-select-option value="lociones" routerLink="/perfumes_fragancias/lociones">Lociones</ion-select-option>
-      <ion-select-option value="desodorantes" routerLink="/perfumes_fragancias/desodorantes">Desodorantes</ion-select-option>
-    </ion-select>
-  </ion-item>
-</ion-card>
-
-<ion-card>
-  <ion-item >
-    <ion-label routerLink="/cuidado_personal">Cuidado personal</ion-label>
-    <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="">
-      <ion-select-option value="jabon_barra" routerLink="/cuidado_personal/jabon_barra">Jabon en barra</ion-select-option>
-      <ion-select-option value="jabon_liquido" routerLink="/cuidado_personal/jabon_liquido">Jabon liquido</ion-select-option>
-      <ion-select-option value="jabon_pastilla" routerLink="/cuidado_personal/jabon_pastilla">Jabon en pastilla</ion-select-option>
-      <ion-select-option value="shampoos_acondicionadores" routerLink="/cuidado_personal/shampoos_acondicionadores">Shampoos y acondicionadores</ion-select-option>
-      <ion-select-option value="cepillos_hilo_dental" routerLink="/cuidado_personal/cepillos_hilo_dental">Cepillos e hilo dental</ion-select-option>
-      <ion-select-option value="enjuagues_bucales" routerLink="/cuidado_personal/enjuagues_bucales">Enjuagues Bucales</ion-select-option>
-      <ion-select-option value="depiladoras" routerLink="/cuidado_personal/depiladoras">Depiladoras</ion-select-option>
-      <ion-select-option value="crema_dental" routerLink="/cuidado_personal/crema_dental">Crema dental</ion-select-option>
-      <ion-select-option value="afeitadoras" routerLink="/cuidado_personal/afeitadoras">Afeitadoras</ion-select-option>
-      <ion-select-option value="crema_afeitar" routerLink="/cuidado_personal/crema_afeitar">Crema de afeitar</ion-select-option>
-      <ion-select-option value="antitraspirante_aerosol" routerLink="/cuidado_personal/antitraspirante_aerosol">Antitranspirante en aerosol</ion-select-option>
-      <ion-select-option value="desodorante_aerosol" routerLink="/cuidado_personal/desodorante_aerosol">Desodorante en aerosol</ion-select-option>
-      <ion-select-option value="desodorante_barra" routerLink="/cuidado_personal/desodorante_barra">Desodorante en barra</ion-select-option>
-      <ion-select-option value="desodorante_crema" routerLink="/cuidado_personal/desodorante_crema">Desodorante en crema</ion-select-option>
-      <ion-select-option value="cuidado_protesis_dental" routerLink="/cuidado_personal/cuidado_protesis_dental">Cuidado de protesis dental</ion-select-option>
-      <ion-select-option value="cremas_hidratantes" routerLink="/cuidado_personal/cremas_hidratantes">Cremas hidratantes</ion-select-option>
-      <ion-select-option value="protectores_solares" routerLink="/cuidado_personal/protectores_solares">Protectores solares</ion-select-option>
-      <ion-select-option value="repelentes" routerLink="/cuidado_personal/repelentes">Repelentes</ion-select-option>
-      <ion-select-option value="copas_menstruales" routerLink="/cuidado_personal/copas_menstruales">Copas menstruales</ion-select-option>
-      <ion-select-option value="protectores_mamarios" routerLink="/cuidado_personal/protectores_mamarios">Protectores mamarios</ion-select-option>
-      <ion-select-option value="tampones" routerLink="/cuidado_personal/tampones">Tampones</ion-select-option>
-      <ion-select-option value="toallas_femeninas" routerLink="/cuidado_personal/toallas_femeninas">Toallas femeninas</ion-select-option>
-      <ion-select-option value="talco_polvo" routerLink="/cuidado_personal/talco_polvo">Talco en polvo</ion-select-option>
-      <ion-select-option value="talco_aerosol" routerLink="/cuidado_personal/talco_aerosol">Talco en aerosol</ion-select-option>
-    </ion-select>
-  </ion-item>
-</ion-card>
-
-<ion-card>
-  <ion-item >
-    <ion-label routerLink="/bebes_niños">Bebes y niños</ion-label>
-    <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="">
-    <ion-select-option value="pañales_bebes" routerLink="/bebes_niños/pañales_bebes">Pañales para bebe</ion-select-option>
-      <ion-select-option value="toallas_humedas" routerLink="/bebes_niños/toallas_humedas">Toallas humedas</ion-select-option>
-      <ion-select-option value="jabon_bebes" routerLink="/bebes_niños/jabon_bebes">Jabon para bebes</ion-select-option>
-      <ion-select-option value="shampoo_infantil" routerLink="/bebes_niños/shampoo_infantil">Shampoo infantil</ion-select-option>
-      <ion-select-option value="fragancias_infantiles" routerLink="/bebes_niños/fragancias_infantiles">Fragancias infantiles</ion-select-option>
-      <ion-select-option value="leches_alimentos" routerLink="/bebes_niños/leches_alimentos">Leches y alimentos</ion-select-option>
-      <ion-select-option value="mamaderas_tetinas" routerLink="/bebes_niños/mamaderas_tetinas">Mamaderas y tetinas</ion-select-option>
-      <ion-select-option value="chupetes_mordillos" routerLink="/bebes_niños/chupetes_mordillos">Chupetes y mordillos</ion-select-option>
-    </ion-select>
-    </ion-item>
-</ion-card>
-
-<ion-card>
-  <ion-item >
-    <ion-label routerLink="/maquillaje">Maquillaje</ion-label>
-  </ion-item>
-</ion-card>
-
-<ion-card>
-  <ion-item >
-    <ion-label routerLink="/nutricion">Nutricion</ion-label>
-  </ion-item>
-</ion-card>
-
-</ion-content>
+  <ion-button expand="full">dermocosmetica</ion-button>
+  <ion-button expand="full">dermocosmetica</ion-button>
+  <ion-button expand="full">dermocosmetica</ion-button>
+  <ion-button expand="full">dermocosmetica</ion-button>
+  <ion-button expand="full">dermocosmetica</ion-button>
+  <ion-button expand="full">dermocosmetica</ion-button>
+  <ion-button expand="full">dermocosmetica</ion-button>
+ 
+</ion-conten>
 
