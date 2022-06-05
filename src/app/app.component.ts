@@ -11,7 +11,9 @@ export class AppComponent {
     
     { title: 'carrito', url: '/carrito', icon: 'cart' },
 
-    { title: 'productos', url: '/productos', icon: 'bag' },
+    { title: 'categorias', url: '/categorias', icon: 'bag' },
+
+    { title: 'contacto', url: '/contacto', icon: 'mail' },
     
   ];
  
