@@ -1,11 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>nutricion</ion-title>
+    <ion-title>Nutricion</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <p>
+        <img src="assets\logo y ofertas\ofertaprote2.jpg"/>
+       
+      </p>
+    </ion-slide>
+  </ion-slides>
 
   <ion-card>
     <ion-card-header>
@@ -25,8 +32,8 @@
 
   <ion-card>
     <ion-card-header>
-      <ion-card-title>nitrilon bbs</ion-card-title>
-      <ion-card-subtitle>Contenido:1000gr</ion-card-subtitle>
+      <ion-card-title>Nutrilon </ion-card-title>
+      <ion-card-subtitle>Contenido:500gr</ion-card-subtitle>
     </ion-card-header>
   <img src="assets\nutricion\nutrilon.jpeg"/>
     <ion-card-content>
@@ -43,7 +50,7 @@
 
   <ion-card>
     <ion-card-header>
-      <ion-card-title>Proteina ENA</ion-card-title>
+      <ion-card-title>Proteina ENA Ultra Mass</ion-card-title>
       <ion-card-subtitle>Contenido:1000gr</ion-card-subtitle>
     </ion-card-header>
   <img src="assets\nutricion\proteina ENA.jpeg"/>
@@ -60,12 +67,12 @@
 
   <ion-card>
     <ion-card-header>
-      <ion-card-title>PROTEINEX</ion-card-title>
-      <ion-card-subtitle>Contenido:750gr, 5ml</ion-card-subtitle>
+      <ion-card-title>Proteinex</ion-card-title>
+      <ion-card-subtitle>Contenido:750gr</ion-card-subtitle>
     </ion-card-header>
   <img src="assets\nutricion\proteinax.jpeg"/>
     <ion-card-content>
-      Precio:$1100
+      Precio:$1.100
       <ion-button expand="full" [routerLink]="['/carrito']"  slot="end">Comprar</ion-button>
     </ion-card-content>
   </ion-card>
@@ -77,27 +84,10 @@
 
   <ion-card>
     <ion-card-header>
-      <ion-card-title>quemador de grasas</ion-card-title>
-      <ion-card-subtitle>Contenido:300gr</ion-card-subtitle>
+      <ion-card-title>Ripped Max 2</ion-card-title>
+      <ion-card-subtitle>Contenido:700gr</ion-card-subtitle>
     </ion-card-header>
     <img src="assets\nutricion\quemador de grasas gentech.jpeg"/>
-    <ion-card-content>
-      Precio:$2.250
-      <ion-button expand="full" [routerLink]="['/carrito']"  slot="end">Comprar</ion-button>
-    </ion-card-content>
-  </ion-card>
-
-
-
-
-
-
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Ripped max</ion-card-title>
-      <ion-card-subtitle>Contenido:350gr</ion-card-subtitle>
-    </ion-card-header>
-  <img src="assets\nutricion\quemador de grasas.jpeg"/>
     <ion-card-content>
       Precio:$2.800
       <ion-button expand="full" [routerLink]="['/carrito']"  slot="end">Comprar</ion-button>
@@ -111,12 +101,29 @@
 
   <ion-card>
     <ion-card-header>
-      <ion-card-title>caramelos vitaminicos</ion-card-title>
+      <ion-card-title>Ripped Max</ion-card-title>
+      <ion-card-subtitle>Contenido:700gr</ion-card-subtitle>
+    </ion-card-header>
+  <img src="assets\nutricion\quemador de grasas.jpeg"/>
+    <ion-card-content>
+      Precio:$2.250
+      <ion-button expand="full" [routerLink]="['/carrito']"  slot="end">Comprar</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+
+
+
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Caramelos Simple</ion-card-title>
       <ion-card-subtitle>Contenido:150gr</ion-card-subtitle>
     </ion-card-header>
   <img src="assets\nutricion\caramelosvitaminicos.jpeg"/>
     <ion-card-content>
-      Precio:$800
+      Precio:$1.800
       <ion-button expand="full" [routerLink]="['/carrito']"  slot="end">Comprar</ion-button>
     </ion-card-content>
   </ion-card>
@@ -130,7 +137,7 @@
 
   <ion-card>
     <ion-card-header>
-      <ion-card-title>whey protein gentech</ion-card-title>
+      <ion-card-title>Whey Protein Gentech Argentina</ion-card-title>
       <ion-card-subtitle>Contenido:250gr</ion-card-subtitle>
     </ion-card-header>
     <img src="assets\nutricion\whey protein gentech.jpeg"/>

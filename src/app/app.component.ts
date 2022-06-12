@@ -7,13 +7,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public appPages = [
     
-    { title: 'inicio', url: '/inicio', icon: 'home' },
+    { title: 'Inicio', url: '/inicio', icon: 'home' },
     
-    { title: 'carrito', url: '/carrito', icon: 'cart' },
+    { title: 'Carrito', url: '/carrito', icon: 'cart' },
 
-    { title: 'categorias', url: '/categorias', icon: 'bag' },
+    { title: 'Categorias', url: '/categorias', icon: 'bag' },
 
-    { title: 'contacto', url: '/contacto', icon: 'mail' },
+    { title: 'Contacto', url: '/contacto', icon: 'mail' },
+
+    { title: 'Cuenta', url: '/login', icon: 'person' },
     
   ];
  

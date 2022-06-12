@@ -52,6 +52,14 @@ const routes: Routes = [
     path: 'nutricion',
     loadChildren: () => import('./nutricion/nutricion.module').then( m => m.NutricionPageModule)
   },
+  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
 
 
 
